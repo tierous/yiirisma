@@ -56,7 +56,7 @@
 					<ul class="dropdown-menu">
 						<li><a href="#">Profile</a></li>
 						<li class="divider"></li>
-						<li><?php echo CHtml::link('Logout',array('/site/logout'));?></li>
+						<li><?php echo CHtml::link('Logout',array('/admin/logout'));?></li>
 					</ul>
 				</div>
 				<!-- user dropdown ends -->

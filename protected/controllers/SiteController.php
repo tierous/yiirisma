@@ -32,7 +32,7 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		//echo Yii::app()->user->id;exit;
 		if (Yii::app()->user->isGuest){
-			$this->redirect(array('/site/login'));
+			$this->redirect(array('/admin/login'));
 		}else{
 			$this->render('index');
 		}
