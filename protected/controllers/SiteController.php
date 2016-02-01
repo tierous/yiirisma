@@ -31,11 +31,12 @@ class SiteController extends Controller
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		//echo Yii::app()->user->id;exit;
-		if (Yii::app()->user->isGuest){
-			$this->redirect(array('/admin/login'));
+/*		if (Yii::app()->user->isGuest){
+			$this->redirect(array('/admin/'));
 		}else{
 			$this->render('index');
-		}
+		}*/
+		$this->render('index');
 	}
 
 	/**

@@ -8,6 +8,7 @@
 return array(
 		'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 		'name'=>'Yiirisma - free, premium quality, responsive, multiple skin YII admin template ',
+		'theme'=>'ustora',
 
 		// preloading 'log' component
 		'preload'=>array('log'),
