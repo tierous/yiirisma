@@ -2,8 +2,7 @@
 
 class ProductController extends EcommController {
 
-    public $layout = '//layouts/column2'; //set layout    
-
+    public $layout = '//layouts/column2'; //set layout
     const URLUPLOAD = '/../img/products/'; //set path save gambar
 
     public function actionReview($id) { //aksi untuk detail product
@@ -122,7 +121,7 @@ class ProductController extends EcommController {
 
     public function actionIndex() {
         /* gunakan layout store */
-        $this->layout = 'store';
+        $this->layout = 'shop';
         /* order by id desc */
         $criteria = new CDbCriteria(array('order' => 'product_id DESC',));
         /* count data product */
